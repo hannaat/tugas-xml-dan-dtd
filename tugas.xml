@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE hotel SYSTEM "hotel.dtd">
+<hotel>
+<Kamar>
+  <kode>101</kode>
+  <lantai>1</lantai>
+  <harga>250000</harga>
+  <fasilitas>
+     <AC>1</AC>
+     <kamar_mandi>1</kamar_mandi>
+     <TV>1</TV>
+     <tempat_tidur>1</tempat_tidur>
+     <meja>2</meja>
+     <ukuran_ruangan>kecil</ukuran_ruangan>
+  </fasilitas>
+  <jenis_kamar>standard_room</jenis_kamar>
+</Kamar>  
+ 
+<Kamar>
+  <kode>201</kode>
+  <lantai>2</lantai>
+  <harga>500000</harga>
+  <fasilitas>
+     <AC>1</AC>
+     <kamar_mandi>1</kamar_mandi>
+     <TV>1</TV>
+     <tempat_tidur>1</tempat_tidur>
+     <sofa>1</sofa>
+     <meja>1</meja>
+     <pengering_rambut>1</pengering_rambut>
+     <mesin_pembuat_kopi>1</mesin_pembuat_kopi>
+  	 <ukuran_ruangan>sedang</ukuran_ruangan>
+  </fasilitas>
+  <jenis_kamar>superior_room</jenis_kamar>
+</Kamar> 
+
+<Kamar>
+  <kode>301</kode>
+  <lantai>3</lantai>
+  <harga>1250000</harga>
+  <fasilitas>
+     <AC>1</AC>
+     <kamar_mandi>1</kamar_mandi>
+     <TV>1</TV>
+     <tempat_tidur>1</tempat_tidur>
+     <sofa>1</sofa>
+     <meja>1</meja>
+     <pengering_rambut>1</pengering_rambut>
+     <mesin_pembuat_kopi>1</mesin_pembuat_kopi>
+     <ukuran_ruangan>besar</ukuran_ruangan>
+  </fasilitas>
+  <jenis_kamar>deluxe_room</jenis_kamar>
+</Kamar> 
+<Kamar>
+  <kode>108</kode>
+  <lantai>1</lantai>
+  <harga>5000000</harga>
+  <fasilitas>
+     <AC>1</AC>
+     <kamar_mandi>1</kamar_mandi>
+     <TV>1</TV>
+     <tempat_tidur>1</tempat_tidur>
+     <sofa>1</sofa>
+     <meja>1</meja>
+     <pengering_rambut>1</pengering_rambut>
+     <mesin_pembuat_kopi>1</mesin_pembuat_kopi>
+     <ruang_tamu>1</ruang_tamu>
+     <ukuran_ruangan>lebih besar</ukuran_ruangan>
+  </fasilitas>
+  <jenis_kamar>Suite</jenis_kamar>
+</Kamar>
+</hotel> 

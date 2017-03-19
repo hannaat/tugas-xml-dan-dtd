@@ -1,0 +1,71 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT hotel (Kamar)+>
+<!ATTLIST hotel
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT Kamar (kode,lantai,harga,fasilitas,jenis_kamar)>
+<!ATTLIST Kamar
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kode (#PCDATA)>
+<!ATTLIST kode
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT lantai (#PCDATA)>
+<!ATTLIST lantai
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT harga (#PCDATA)>
+<!ATTLIST harga
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT fasilitas (AC,kamar_mandi,TV,tempat_tidur,sofa?,meja,
+                     (pengering_rambut,mesin_pembuat_kopi)?,ruang_tamu?,
+                     ukuran_ruangan)>
+<!ATTLIST fasilitas
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jenis_kamar (#PCDATA)>
+<!ATTLIST jenis_kamar
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT AC (#PCDATA)>
+<!ATTLIST AC
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kamar_mandi (#PCDATA)>
+<!ATTLIST kamar_mandi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT TV (#PCDATA)>
+<!ATTLIST TV
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tempat_tidur (#PCDATA)>
+<!ATTLIST tempat_tidur
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT sofa (#PCDATA)>
+<!ATTLIST sofa
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT meja (#PCDATA)>
+<!ATTLIST meja
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pengering_rambut (#PCDATA)>
+<!ATTLIST pengering_rambut
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT mesin_pembuat_kopi (#PCDATA)>
+<!ATTLIST mesin_pembuat_kopi
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT ruang_tamu (#PCDATA)>
+<!ATTLIST ruang_tamu
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT ukuran_ruangan (#PCDATA)>
+<!ATTLIST ukuran_ruangan
+    xmlns CDATA #FIXED ''>
